@@ -1,14 +1,14 @@
-export default function WorkItem() {
+export default function WorkItem({book}) {
   return (
     <div className="book">
                 <div>
                     <img
                       className="book-img"
-                      src="/img/navajdenie_book_page-0001.jpg" alt=""
+                      src={book.imageUrl} alt=""
                     />
                 </div>
                 <div className="book-name">
-                    <span>Наваждение</span>
+                    <span>{book.name}</span>
                     <label className="button-read-more">Читать...</label>
                 </div>
     </div>

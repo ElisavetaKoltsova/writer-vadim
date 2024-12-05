@@ -98,7 +98,7 @@ h4 {
   margin-top: 10%;
   margin-bottom: 10%;
   position: relative;
-  height: 900px;
+  min-height: 900px;
 }
 
 .books {

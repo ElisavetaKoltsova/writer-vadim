@@ -1,3 +1,4 @@
+import { books } from "../../Data/Data";
 import WorkItem from "./WorkItem";
 
 export default function WorkList() {
@@ -7,7 +8,7 @@ export default function WorkList() {
             <h3>Мои работы</h3>
         </div>
         <div className="books">
-            <WorkItem />
+          {books.map((book) => <WorkItem book={book} />)}
         </div>
     </section>
   );
