@@ -1,12 +1,12 @@
 export default function Biography() {
   return (
-    <section className="biography">
+    <section className="biography" id="about">
         <div>
             <h3>Моя биография</h3>
         </div>
         <div className="biography-item">
             <div className="biography-text">
-                Кольцов Вадим Анатольевич, родился <b>24 июня 1968 года</b> 
+                <b>Кольцов Вадим Анатольевич</b>, родился <b>24 июня 1968 года</b> 
                 в городе<b> Хабаровске</b>. 
                 <br/><br/>
                 Начал писать еще с первого класса. 

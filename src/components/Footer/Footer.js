@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer>
+    <footer id="contact">
         <div>
             <h4>Контакты</h4>
         </div>

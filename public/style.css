@@ -3,6 +3,8 @@
   src: URL('/fonts/Cyberpunk_RUS_BY_LYAJKA.ttf') format('truetype');
 }  
 
+a { all: unset; /* Все стили элемента сбрасываются в ноль. */ }
+
 html {
   scroll-behavior: smooth;
 }
@@ -54,6 +56,11 @@ h4 {
 .m-item {
   font-size: 2.5rem;
   padding: 0.5em 1em;
+}
+
+.m-item:hover {
+  color: rgba(122, 105, 222, 0.5);
+  transform: scale(1.05);
 }
 
 .home {
